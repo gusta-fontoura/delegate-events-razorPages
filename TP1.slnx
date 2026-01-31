@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/01-DelegateEvents/">
+    <Project Path="01-DelegateEvents/Delegate.csproj" />
+  </Folder>
+  <Folder Name="/02-Actions/">
+    <Project Path="02-Actions/Actions.csproj" />
+  </Folder>
+  <Folder Name="/03-Func/">
+    <Project Path="03-Func/Func.csproj" />
+  </Folder>
+</Solution>
