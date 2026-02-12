@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    var list = ShowList();
+}
+
+@functions{
+    public string ShowList()
+    {
+        return "Maça: 5$, Limão: 8$, Papaya: 7$";
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p> @list</p>
+</div>
